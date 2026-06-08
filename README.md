@@ -1,67 +1,57 @@
-# Varsha Kuchana — Data Analyst Portfolio
+# Data Analyst Portfolio — Varsha Kuchana
 
-Professional portfolio website for data analyst roles.
+Personal portfolio website showcasing data analytics projects, technical skills, and professional experience.
 
-**Live site (after deploy):** `https://varshakuchana.github.io/data-analyst-portfolio/`
+**Live site:** [varshakuchana.github.io/data-analyst-portfolio](https://varshakuchana.github.io/data-analyst-portfolio/)
 
-## What's included
+## About
 
-- Hero with resume download
-- About, Skills, Projects (with Tableau embed)
-- Experience, Education, Contact
-- SEO & LinkedIn preview tags
+I'm a Computer Science student at the University of Missouri focused on data analytics, SQL, Python, ETL pipelines, and business intelligence. This portfolio highlights my work turning raw data into actionable insights through dashboards, database systems, and analytical reporting.
 
-## Deploy to GitHub Pages
+## Featured Projects
 
-### Step 1 — Create the repo on GitHub
+| Project | Tools | Highlights |
+|---------|-------|------------|
+| [Retail Analytics Platform](https://github.com/varshakuchana/retail-analytics-platform) | Python, PostgreSQL, SQL, Tableau | ETL pipelines, revenue analysis, [live Tableau dashboard](https://public.tableau.com/app/profile/varsha.kuchana/viz/RetailAnalyticsPlatform/RetailAnalyticsPlatform) |
+| Driving School Management System | Python, MySQL, SQL | Relational database design, reporting workflows, data validation |
+| [Parking Stall Occupancy Detection](https://github.com/varshakuchana/Parking-Lot-Project) | Python, OpenCV, NumPy | Computer vision pipeline, CSV reporting outputs |
+| iFINANCE Web Application | ASP.NET MVC, C#, SQL Server | Financial reporting, normalized schemas, role-based access |
+| LaserPurrrsue | Kotlin, WebSockets, OpenCV | Real-time monitoring, Android frontend, Raspberry Pi integration |
 
-1. Go to [github.com/new](https://github.com/new)
-2. Repository name: `data-analyst-portfolio`
-3. Set to **Public**
-4. Do **not** add README, .gitignore, or license (we already have files)
-5. Click **Create repository**
+## Experience
 
-### Step 2 — Push your code
+- **Undergraduate Research Assistant** — Digital Biology Lab, University of Missouri  
+  Large-scale biological data analysis, FASTAptameR 3.0 bioinformatics platform  
+  [Research code on GitHub](https://github.com/varshakuchana/fastaptamer3_python)
 
-Run these commands in Terminal (replace with your path if needed):
+- **Peer Learning Assistant** — University of Missouri, Department of Computer Science  
+  Student support for HTML, CSS, and JavaScript
 
-```bash
-cd "/Users/varshakuchana/Desktop/DATA ANALYST PORTFOLIO"
+## Skills
 
-git init
-git add .
-git commit -m "Initial portfolio site for data analyst role"
-git branch -M main
-git remote add origin https://github.com/varshakuchana/data-analyst-portfolio.git
-git push -u origin main
+**Data & Analytics:** SQL, Python, Tableau, Power BI, Oracle Analytics Cloud, Excel, ETL Concepts, Data Visualization  
+**Databases:** PostgreSQL, MySQL, SQL Server, MongoDB  
+**Languages:** Python, JavaScript, TypeScript, SQL, Kotlin, C, C++
+
+## Contact
+
+- **Email:** kuchanavarsha1969@gmail.com
+- **Phone:** 573-988-8846
+- **Portfolio:** [varshakuchana.github.io/data-analyst-portfolio](https://varshakuchana.github.io/data-analyst-portfolio/)
+- **LinkedIn:** [linkedin.com/in/varsha-kuchana-8709a22a7](https://www.linkedin.com/in/varsha-kuchana-8709a22a7/)
+- **GitHub:** [github.com/varshakuchana](https://github.com/varshakuchana)
+
+## Tech Stack
+
+- HTML5, CSS3, JavaScript
+- GitHub Pages (hosting)
+- Tableau Public (embedded dashboard)
+
+## Project Structure
+
 ```
-
-### Step 3 — Enable GitHub Pages
-
-1. Open your repo on GitHub → **Settings** → **Pages**
-2. Under **Build and deployment**, set Source to **Deploy from a branch**
-3. Branch: `main` → Folder: `/ (root)` → **Save**
-4. Wait 1–2 minutes. Your site will be live at:
-   `https://varshakuchana.github.io/data-analyst-portfolio/`
-
-### Step 4 — Add the URL to your resume & LinkedIn
-
-Put the live link in:
-- Resume header
-- LinkedIn **Featured** section
-- LinkedIn **Contact info** → Website
-
-## Local preview
-
-```bash
-open index.html
+├── index.html                  # Portfolio page
+├── styles.css                  # Styling
+├── script.js                   # Navigation & animations
+└── Varsha_Kuchana_Resume.pdf   # Downloadable resume
 ```
-
-## Files
-
-| File | Purpose |
-|------|---------|
-| `index.html` | Page content |
-| `styles.css` | Styling |
-| `script.js` | Navigation & animations |
-| `Varsha_Kuchana_Resume.pdf` | Downloadable resume |

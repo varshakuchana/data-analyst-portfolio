@@ -1,4 +1,4 @@
-// Navigation scroll effect
+// Portfolio interactions — navigation, scroll animations, contact form
 const nav = document.getElementById('nav');
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
