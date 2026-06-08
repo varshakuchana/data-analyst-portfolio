@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Varsha Kuchana — Data Analyst portfolio showcasing SQL, Python, ETL pipelines, Tableau dashboards, and data visualization projects." />
+  <meta name="author" content="Varsha Kuchana" />
+  <meta name="keywords" content="Data Analyst, SQL, Python, Tableau, Power BI, ETL, PostgreSQL, Data Visualization, Varsha Kuchana" />
+
+  <!-- Social preview (LinkedIn, Twitter, iMessage, etc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Varsha Kuchana | Data Analyst Portfolio" />
+  <meta property="og:description" content="Data Analyst skilled in SQL, Python, ETL pipelines, and Tableau. Explore retail analytics dashboards, database projects, and bioinformatics research." />
+  <meta property="og:url" content="https://varshakuchana.github.io/data-analyst-portfolio/" />
+  <meta property="og:site_name" content="Varsha Kuchana Portfolio" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Varsha Kuchana | Data Analyst Portfolio" />
+  <meta name="twitter:description" content="Data Analyst skilled in SQL, Python, ETL pipelines, and Tableau. Explore projects and dashboards." />
+
+  <title>Varsha Kuchana | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo">VK<span class="nav__logo-dot">.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow"></div>
+    </div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow fade-in">Data Analyst &amp; Computer Science Student</p>
+      <h1 class="hero__title fade-in">
+        Hi, I'm <span class="hero__name">Varsha Kuchana</span>
+      </h1>
+      <p class="hero__subtitle fade-in">
+        I transform raw data into actionable insights through SQL, Python, ETL pipelines,
+        and interactive dashboards, turning complexity into clear business decisions.
+      </p>
+      <div class="hero__actions fade-in">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="Varsha_Kuchana_Resume.pdf" download="Varsha_Kuchana_Resume.pdf" class="btn btn--outline">Download Resume</a>
+        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+      </div>
+      <div class="hero__stats fade-in">
+        <div class="stat">
+          <span class="stat__value">5+</span>
+          <span class="stat__label">Analytics Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">SQL</span>
+          <span class="stat__label">PostgreSQL · MySQL · SQL Server</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">BI</span>
+          <span class="stat__label">Tableau · Power BI · OAC</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">About Me</span>
+          <h2 class="section__title">Bridging data science &amp; business impact</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              I'm a Computer Science student at the University of Missouri with a passion for
+              data analytics, visualization, and building end-to-end data pipelines. My work spans
+              retail analytics, bioinformatics research, and database driven reporting systems.
+            </p>
+            <p>
+              From designing ETL workflows with Python and PostgreSQL to creating interactive
+              Tableau dashboards with KPI tracking and customer segmentation, I focus on delivering
+              data solutions that are accurate, scalable, and easy to understand.
+            </p>
+            <p>
+              Currently, I analyze large scale biological datasets as an Undergraduate Research
+              Assistant and support student learning as a Peer Learning Assistant in the CS department.
+            </p>
+          </div>
+          <div class="about__highlights reveal">
+            <div class="highlight-card">
+              <div class="highlight-card__icon">📊</div>
+              <h3>Data Analysis</h3>
+              <p>SQL queries, statistical analysis, trend identification, and reporting workflows</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-card__icon">🔄</div>
+              <h3>ETL Pipelines</h3>
+              <p>Data collection, cleaning, transformation, and loading with Python &amp; Pandas</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-card__icon">📈</div>
+              <h3>Visualization</h3>
+              <p>Interactive dashboards in Tableau, Power BI, and Oracle Analytics Cloud</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-card__icon">🗄️</div>
+              <h3>Database Design</h3>
+              <p>Normalized schemas, data validation, and integrity across relational databases</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Technical Skills</span>
+          <h2 class="section__title">Tools I work with</h2>
+        </div>
+        <div class="skills__grid">
+          <div class="skill-category reveal">
+            <h3 class="skill-category__title">Data &amp; Analytics</h3>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--featured">SQL</span>
+              <span class="skill-tag skill-tag--featured">Python</span>
+              <span class="skill-tag skill-tag--featured">Tableau</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Oracle Analytics Cloud</span>
+              <span class="skill-tag">Microsoft Excel</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">Data Visualization</span>
+              <span class="skill-tag">ETL Concepts</span>
+              <span class="skill-tag">Reporting</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3 class="skill-category__title">Databases</h3>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag--featured">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQL Server</span>
+              <span class="skill-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3 class="skill-category__title">Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Kotlin</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3 class="skill-category__title">Web &amp; Mobile</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Angular</span>
+              <span class="skill-tag">ASP.NET MVC</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Jetpack Compose</span>
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">WebSockets</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h3 class="skill-category__title">Tools &amp; Frameworks</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Flask</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">OpenCV</span>
+              <span class="skill-tag">Media3 / ExoPlayer</span>
+              <span class="skill-tag">TensorFlow Lite</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Visual Studio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Featured Work</span>
+          <h2 class="section__title">Data analytics projects</h2>
+          <p class="section__desc">
+            End-to-end data solutions from collection and ETL to SQL analysis and dashboard visualization.
+          </p>
+        </div>
+        <div class="projects__grid">
+          <article class="project-card project-card--featured reveal">
+            <div class="project-card__badge">Featured</div>
+            <div class="project-card__header">
+              <h3>Retail Analytics Platform</h3>
+              <div class="project-card__tech">
+                <span>Python</span>
+                <span>PostgreSQL</span>
+                <span>SQL</span>
+                <span>Tableau</span>
+              </div>
+            </div>
+            <p class="project-card__desc">
+              Designed and developed an end-to-end retail analytics platform by collecting product data from APIs
+              and generating realistic sales, customer, and transaction datasets.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Built ETL pipelines using Python, Pandas, and PostgreSQL to clean, transform, and load data for analytical reporting</li>
+              <li>Wrote advanced SQL queries to analyze revenue trends, customer behavior, product performance, and regional sales patterns</li>
+              <li>Developed an interactive Tableau dashboard with KPI tracking, sales forecasting insights, customer segmentation, and product performance analysis</li>
+            </ul>
+            <div class="project-card__metrics">
+              <div class="metric">
+                <span class="metric__label">Focus</span>
+                <span class="metric__value">Revenue &amp; Customer Analytics</span>
+              </div>
+              <div class="metric">
+                <span class="metric__label">Stack</span>
+                <span class="metric__value">ETL → SQL → Tableau</span>
+              </div>
+            </div>
+            <div class="project-card__links">
+              <a href="https://public.tableau.com/app/profile/varsha.kuchana/viz/RetailAnalyticsPlatform/RetailAnalyticsPlatform" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm">
+                View Tableau Dashboard
+              </a>
+              <a href="https://github.com/varshakuchana/retail-analytics-platform" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+                View on GitHub
+              </a>
+            </div>
+            <div class="tableau-embed">
+              <iframe
+                title="Retail Analytics Platform — Tableau Dashboard"
+                src="https://public.tableau.com/views/RetailAnalyticsPlatform/RetailAnalyticsPlatform?:embed=y&:display_count=no&:showVizHome=no"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__header">
+              <h3>Driving School Management System</h3>
+              <div class="project-card__tech">
+                <span>Python</span>
+                <span>MySQL</span>
+                <span>SQL</span>
+              </div>
+            </div>
+            <p class="project-card__desc">
+              Relational database system for scheduling, billing, student records, and performance tracking
+              with automated reporting workflows.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Designed and managed relational MySQL databases for scheduling, billing, student records, and performance tracking</li>
+              <li>Developed SQL queries and reporting workflows to retrieve, analyze, and organize business data efficiently</li>
+              <li>Implemented data validation and data integrity checks to improve database accuracy and consistency</li>
+              <li>Automated data management processes using Python and SQL-based operations</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__header">
+              <h3>Parking Stall Occupancy Detection System</h3>
+              <div class="project-card__tech">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>NumPy</span>
+              </div>
+            </div>
+            <p class="project-card__desc">
+              Developed a computer vision and data analysis pipeline for parking occupancy detection
+              using Python and OpenCV.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Processed and analyzed image datasets using HSV features, edge detection, thresholding, and homography techniques</li>
+              <li>Generated structured CSV outputs for occupancy classification and reporting workflows</li>
+              <li>Improved data extraction and automation processes for large-scale image analysis</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://github.com/varshakuchana/Parking-Lot-Project" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+                View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__header">
+              <h3>iFINANCE Web Application</h3>
+              <div class="project-card__tech">
+                <span>ASP.NET MVC</span>
+                <span>C#</span>
+                <span>SQL Server</span>
+                <span>Entity Framework</span>
+              </div>
+            </div>
+            <p class="project-card__desc">
+              Developed a financial management web application with SQL Server database integration
+              and reporting functionality.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Designed normalized relational database schemas and implemented secure role-based access controls</li>
+              <li>Built data-driven reporting features for financial analysis and transaction management</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__header">
+              <h3>LaserPurrrsue: AI Powered Smart Laser Control System</h3>
+              <div class="project-card__tech">
+                <span>Kotlin</span>
+                <span>Jetpack Compose</span>
+                <span>WebSockets</span>
+                <span>Media3</span>
+                <span>Raspberry Pi</span>
+              </div>
+            </div>
+            <p class="project-card__desc">
+              Developed the Android frontend for an AI powered smart laser system with real-time
+              remote monitoring and control.
+            </p>
+            <ul class="project-card__highlights">
+              <li>Built low-latency device communication using WebSockets, Jetpack Compose, and RTSP video streaming with Media3</li>
+              <li>Collaborated on Raspberry Pi backend integration using Flask/FastAPI and OpenCV-based cat detection workflows</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Experience</span>
+          <h2 class="section__title">Where I've applied my skills</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <div class="timeline__meta">
+                <span class="timeline__date">2026 – Present</span>
+                <span class="timeline__location">Columbia, MO</span>
+              </div>
+              <h3>Peer Learning Assistant</h3>
+              <p class="timeline__org">University of Missouri, Department of Computer Science</p>
+              <ul>
+                <li>Conduct office hours and provide technical support for students in HTML, CSS, and JavaScript</li>
+                <li>Assist with grading and student learning support via online platforms</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline__item reveal">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <div class="timeline__meta">
+                <span class="timeline__date">2026</span>
+                <span class="timeline__location">Columbia, MO</span>
+              </div>
+              <h3>Undergraduate Research Assistant</h3>
+              <p class="timeline__org">Digital Biology Lab</p>
+              <ul>
+                <li>Analyze and process large-scale biological and sequencing datasets using Python and data analysis workflows</li>
+                <li>Support development and testing of FASTAptameR 3.0, a bioinformatics platform for high-throughput data analysis and visualization</li>
+                <li>Assist with data preprocessing, validation, clustering, motif analysis, and reporting workflows</li>
+                <li>Collaborate with researchers to improve data analysis performance, visualization accuracy, and user experience</li>
+              </ul>
+              <div class="timeline__links">
+                <a href="https://github.com/varshakuchana/fastaptamer3_python" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+                  View Research Code on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Education</span>
+          <h2 class="section__title">Academic background</h2>
+        </div>
+        <div class="education__grid">
+          <article class="edu-card reveal">
+            <div class="edu-card__icon">🎓</div>
+            <div class="edu-card__content">
+              <h3>Bachelor's in Computer Science</h3>
+              <p class="edu-card__school">University of Missouri</p>
+              <p class="edu-card__meta">Columbia, MO · Aug 2024 – Present</p>
+            </div>
+          </article>
+          <article class="edu-card reveal">
+            <div class="edu-card__icon">🎓</div>
+            <div class="edu-card__content">
+              <h3>Bachelor's in Computer Science</h3>
+              <p class="edu-card__school">SR International Institute of Tech</p>
+              <p class="edu-card__meta">India · 2022 – 2024</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__wrapper reveal">
+          <div class="contact__info">
+            <span class="section__tag">Contact</span>
+            <h2 class="section__title">Let's connect</h2>
+            <p>
+              I'm open to data analyst opportunities, internships, and collaborations.
+              Reach out, I'd love to discuss how I can contribute to your team.
+            </p>
+            <div class="contact__links">
+              <a href="mailto:kuchanavarsha1969@gmail.com" class="contact__link">
+                <span class="contact__link-icon">✉️</span>
+                kuchanavarsha1969@gmail.com
+              </a>
+              <a href="tel:+1573988846" class="contact__link">
+                <span class="contact__link-icon">📞</span>
+                573-988-8846
+              </a>
+              <a href="https://github.com/varshakuchana" target="_blank" rel="noopener noreferrer" class="contact__link">
+                <span class="contact__link-icon">🔗</span>
+                GitHub Profile
+              </a>
+              <a href="https://www.linkedin.com/in/varsha-kuchana-8709a22a7/" target="_blank" rel="noopener noreferrer" class="contact__link">
+                <span class="contact__link-icon">💼</span>
+                LinkedIn Profile
+              </a>
+            </div>
+          </div>
+          <form class="contact__form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Varsha Kuchana. Built with passion for data.</p>
+      <a href="#hero" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
