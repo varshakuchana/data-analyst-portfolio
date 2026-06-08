@@ -36,7 +36,6 @@ I'm a Computer Science student at the University of Missouri focused on data ana
 ## Contact
 
 - **Email:** kuchanavarsha1969@gmail.com
-- **Phone:** 573-988-8846
 - **Portfolio:** [varshakuchana.github.io/data-analyst-portfolio](https://varshakuchana.github.io/data-analyst-portfolio/)
 - **LinkedIn:** [linkedin.com/in/varsha-kuchana-8709a22a7](https://www.linkedin.com/in/varsha-kuchana-8709a22a7/)
 - **GitHub:** [github.com/varshakuchana](https://github.com/varshakuchana)
