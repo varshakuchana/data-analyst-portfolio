@@ -1,12 +1,12 @@
-# Data Analyst Portfolio — Varsha Kuchana
+# Data & Business Analyst Portfolio — Varsha Kuchana
 
-Personal portfolio website showcasing data analytics projects, technical skills, and professional experience.
+Personal portfolio website showcasing data analytics, business intelligence projects, technical skills, and professional experience.
 
 **Live site:** [varshakuchana.github.io/data-analyst-portfolio](https://varshakuchana.github.io/data-analyst-portfolio/)
 
 ## About
 
-I'm a Computer Science student at the University of Missouri focused on data analytics, SQL, Python, ETL pipelines, and business intelligence. This portfolio highlights my work turning raw data into actionable insights through dashboards, database systems, and analytical reporting.
+I'm a Computer Science student at the University of Missouri focused on data analytics, business intelligence, SQL, Python, and ETL pipelines. This portfolio highlights my work turning raw data into actionable business insights through dashboards, KPI reporting, database systems, and analytical reporting.
 
 ## Featured Projects
 
